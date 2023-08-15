@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+#root {
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+}
+.container {
+  margin-left: 40px;
+}
+header {
+  height: 60px;
+  display: flex;
+}
+h1 {
+  height: 20px;
+  display: flex;
+  align-items: flex-end;
+  margin: 20px auto;
+}
+.scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll hidden;
+  flex-shrink: 0;
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
