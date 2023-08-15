@@ -4,6 +4,7 @@
   margin: 0 auto;
   background-color: black;
   color: white;
+  font-family: "Roboto", sans-serif;
 }
 .container {
   margin-left: 40px;
@@ -24,7 +25,11 @@ h1 {
   overflow: scroll hidden;
   flex-shrink: 0;
 }
-
 .scroll::-webkit-scrollbar {
   display: none;
+}
+img {
+  width: 340px;
+  height: 190px;
+  object-fit: cover;
 }
