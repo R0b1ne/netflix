@@ -6,7 +6,9 @@ const Content = ({ category, images }) => {
         {images.map((image, indexImage) => {
           return (
             <div key={indexImage}>
-              <img src={image} alt="" />
+              <div className="vignette">
+                <img src={image} alt="" />
+              </div>
             </div>
           );
         })}
