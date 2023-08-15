@@ -28,7 +28,7 @@ h1 {
 .scroll::-webkit-scrollbar {
   display: none;
 }
-img {
+.vignette {
   width: 340px;
   height: 190px;
   object-fit: cover;
